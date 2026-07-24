@@ -1,0 +1,184 @@
+.heroLabel {
+    display: none;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "B Nazanin", Tahoma, sans-serif;
+    background: #ffffff;
+    padding: 2px 8px;
+    border-radius: 8px;
+    text-shadow: none;
+    white-space: nowrap;
+    min-width: 180px;
+}
+
+/* ========================================= */
+/* تنظیمات مخصوص موبایل و تبلت */
+/* ========================================= */
+
+@media (max-width: 768px) {
+    #hero {
+        width: 30vw !important;
+        max-width: 150px;
+        min-width: 80px;
+        left: 35%;
+        top: 3%;
+    }
+
+    #board {
+        width: 100%;
+        height: auto;
+        max-height: 90vh;
+    }
+
+    #questionBox{
+    display:none;
+    position:absolute;
+    bottom:3%;
+    left:50%;
+    transform:translateX(-50%);
+    background:#ffffff;
+    width:min(90%,420px);
+    padding:14px;
+    border-radius:18px;
+    text-align:center;
+    box-shadow:0 0 20px rgba(0,0,0,.35);
+    z-index:100;
+}
+  .answer{
+    display:block;
+    width:100%;
+    margin:6px 0;
+    padding:10px;
+    font-size:16px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    background:#ececec;
+    transition:.3s;
+}
+
+    #playerName {
+        width: 100%;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    #startBtn {
+        font-size: 18px;
+        padding: 12px 20px;
+        max-width: 200px;
+    }
+
+    #startBox {
+        width: 95%;
+        bottom: 5%;
+    }
+
+    /* ===== نوار پیشرفت (Progress Bar) در موبایل ===== */
+  #progress{
+    position:absolute !important;
+    left:50% !important;
+    bottom:6px !important;
+    top:auto !important;
+    transform:translateX(-50%) scale(.62);
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:2px;
+    width:95%;
+    padding:4px;
+    background:rgba(255,255,255,.15);
+    border-radius:12px;
+    z-index:300;
+}   /* ← این آکولاد کم بود */
+
+.progressItem{
+    gap:2px !important;
+    margin-bottom:0 !important;
+}
+
+.cell{
+    width:15px !important;
+    height:15px !important;
+}
+
+.heroLabel{
+    font-size:8px !important;
+    min-width:45px !important;
+    padding:1px 2px !important;
+}
+  
+    #heroName {
+        font-size: 20px;
+        width: 90%;
+        top: 38%;
+    }
+}
+
+/* ========================================= */
+/* تنظیمات برای گوشی‌های خیلی کوچک */
+/* ========================================= */
+
+@media (max-width: 480px) {
+    #hero {
+        width: 35vw !important;
+        max-width: 120px;
+        min-width: 60px;
+        left: 33%;
+        top: 2%;
+    }
+
+    #questionBox {
+        width: 95%;
+        max-width: 300px;
+        bottom: 10px;
+        padding: 6px;
+    }
+
+    .answer {
+        font-size: 13px;
+        padding: 8px;
+        margin: 4px 0;
+    }
+
+    #playerName {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    #startBtn {
+        font-size: 16px;
+        padding: 10px 15px;
+        max-width: 160px;
+    }
+
+    #heroName {
+        font-size: 16px;
+        top: 35%;
+    }
+
+    /* ===== نوار پیشرفت برای گوشی‌های خیلی کوچک ===== */
+    #progress {
+        transform: translateX(-50%) scale(0.65) !important;
+        bottom: 5px !important;
+        padding: 4px !important;
+        gap: 2px !important;
+        width: 95% !important;
+    }
+
+    .cell {
+        width: 16px !important;
+        height: 16px !important;
+    }
+
+    .heroLabel {
+        font-size: 8px !important;
+        min-width: 50px !important;
+        padding: 1px 3px !important;
+    }
+
+ .progressItem {
+    gap: 2px !important;
+}
+} 
