@@ -165,10 +165,13 @@ transition:all 1.2s ease;
 /* ===== تنظیم فقط برای موبایل ===== */
 @media (max-width:768px){
 
+    @media (max-width:768px){
+
     #hero{
-        width:160px !important;
-        left:22% !important;
-        top:3% !important;
+        width:340px !important;
+        left:50% !important;
+        transform:translateX(-50%) !important;
+        top:2% !important;
     }
 
 }
@@ -176,8 +179,9 @@ transition:all 1.2s ease;
 @media (max-width:480px){
 
     #hero{
-        width:95px !important;
-        left:20% !important;
+        width:300px !important;
+        left:50% !important;
+        transform:translateX(-50%) !important;
         top:2% !important;
     }
 
