@@ -212,9 +212,9 @@ function showHero(index){
    if (window.innerWidth <= 768) {
 
     if(stage==9){
-        hero.style.width = "240px";
-        hero.style.left = "14%";
-        hero.style.top = "0%";
+        hero.style.width = "480px";
+        hero.style.left = "8%";
+        hero.style.top = "-2%";
     }else{
         hero.style.width = "120px";
         hero.style.left = "22%";
