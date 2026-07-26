@@ -171,7 +171,7 @@ transition:all 1.2s ease;
         width:180px !important;
         left:50% !important;
         transform:translateX(-50%) !important;
-        top:-2% !important;
+        top:0% !important;
     }
 
 }
@@ -182,7 +182,7 @@ transition:all 1.2s ease;
         width:100px !important;
         left:50% !important;
         transform:translateX(-50%) !important;
-        top:-2% !important;
+        top:0% !important;
     }
 
 }
