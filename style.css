@@ -163,23 +163,23 @@ transition:all 1.2s ease;
 
 }
 /* ===== تنظیم فقط برای موبایل ===== */
-
 @media (max-width:768px){
+
     #hero{
-        width:auto !important;
+        width:160px !important;
         left:22% !important;
         top:3% !important;
     }
+
 }
 
 @media (max-width:480px){
+
     #hero{
-        width:auto !important;
+        width:95px !important;
         left:20% !important;
         top:2% !important;
     }
-}
-
 
 }
 .heroDone{
