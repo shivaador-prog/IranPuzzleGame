@@ -168,10 +168,10 @@ transition:all 1.2s ease;
     @media (max-width:768px){
 
     #hero{
-        width:200px !important;
+        width:160px !important;
         left:50% !important;
         transform:translateX(-50%) !important;
-        top:2% !important;
+        top:0% !important;
     }
 
 }
@@ -179,10 +179,10 @@ transition:all 1.2s ease;
 @media (max-width:480px){
 
     #hero{
-        width:150px !important;
+        width:100px !important;
         left:50% !important;
         transform:translateX(-50%) !important;
-        top:2% !important;
+        top:0% !important;
     }
 
 }
