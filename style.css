@@ -168,7 +168,7 @@ transition:all 1.2s ease;
     @media (max-width:768px){
 
     #hero{
-        width:200px !important;
+        width:240px !important;
         left:50% !important;
         transform:translateX(-50%) !important;
         top:2% !important;
@@ -179,7 +179,7 @@ transition:all 1.2s ease;
 @media (max-width:480px){
 
     #hero{
-        width:100px !important;
+        width:150px !important;
         left:50% !important;
         transform:translateX(-50%) !important;
         top:0% !important;
