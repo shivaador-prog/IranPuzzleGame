@@ -1,4 +1,4 @@
-const startBtn = document.getElementById("startBtn");
+const  startBtn = document.getElementById("startBtn");
 const narrator = document.getElementById("narrator");
 const bgMusic = document.getElementById("bgMusic");
 const playerName = document.getElementById("playerName");
@@ -233,9 +233,9 @@ else if (stage == 8) {
     hero.style.top = "-3%";
 }
 else if (stage == 9) {
-    hero.style.width = "600px";
+    hero.style.width = "500px";
     hero.style.left = "22%";
-    hero.style.top = "-8%";
+    hero.style.top = "-20%";
 }
 else {
     hero.style.width = "360px";
