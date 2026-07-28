@@ -513,8 +513,8 @@ min-width:75px !important;
 @media (max-width: 768px) {
     #certName {
         font-size: 11px !important;
-        min-width: 80px !important;
-        padding: 2px 4px !important;
+        min-width: 90px !important;
+        padding: 4px 6px !important;
         border-width: 1px !important;
         border-radius: 4px !important;
         top: 48% !important;
