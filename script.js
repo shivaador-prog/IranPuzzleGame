@@ -216,7 +216,7 @@ function showHero(index){
         hero.style.left = "15%";
         hero.style.top = "-24%";
     }else{
-        hero.style.width = "120px";
+        hero.style.width = "180px";
         hero.style.left = "22%";
         hero.style.top = "3%";
     }
@@ -233,9 +233,9 @@ else if (stage == 8) {
     hero.style.top = "-3%";
 }
 else if (stage == 9) {
-    hero.style.width = "450px";
-    hero.style.left = "15%";
-    hero.style.top = "-24%";
+    hero.style.width = "300px";
+    hero.style.left = "10%";
+    hero.style.top = "-30%";
 }
 else {
     hero.style.width = "360px";
