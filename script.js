@@ -213,7 +213,7 @@ function showHero(index){
 
     if(stage==9){
         hero.style.width = "450px";
-        hero.style.left = "15%";
+        hero.style.left = "24%";
         hero.style.top = "-24%";
     }else{
         hero.style.width = "180px";
