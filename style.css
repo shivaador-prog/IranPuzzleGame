@@ -167,9 +167,9 @@ transition:all 1.2s ease;
 @media (max-width:768px){
 
     #hero{
-        width:160px !important;
+        width:240px !important;
         left:22% !important;
-        top:3% !important;
+        top:0% !important;
     }
 
 }
