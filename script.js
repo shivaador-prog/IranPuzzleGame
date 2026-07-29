@@ -233,9 +233,9 @@ else if (stage == 8) {
     hero.style.top = "-3%";
 }
 else if (stage == 9) {
-    hero.style.width = "280px";
-    hero.style.left = "10%";
-    hero.style.top = "-30%";
+    hero.style.width = "400px";
+    hero.style.left = "20%";
+    hero.style.top = "-25%";
 }
 else {
     hero.style.width = "360px";
